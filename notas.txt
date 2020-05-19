@@ -1,0 +1,78 @@
+edison954az104@outlook.com
+e$
+
+instructor
+fabian campo 
+
+https://eur06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.yassess.youth4work.com%2Fes%2FExamenes-CD&data=02%7C01%7C%7Cb341eea8ad7645a7974208d7f9468817%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C637251953784552291&sdata=t0DLpexjyJgoG4SuPWC8vIW2ONgKkTZpmEIPAymUPMU%3D&reserved=0
+
+Labs
+https://github.com/MicrosoftLearning/AZ-104-MicrosoftAzureAdministrator
+
+videos:
+https://github.com/MicrosoftLearning/Lab-Demo-Recordings
+https://github.com/MicrosoftLearning/Lab-Demo-Recordings/blob/master/AZ-104.md
+
+Stencils
+https://github.com/sandroasp/Microsoft-Integration-and-Azure-Stencils-Pack-for-Visio
+
+Blog
+https://azure.microsoft.com/es-es/blog/
+
+Doc oficial de actualizaciones mc
+https://azure.microsoft.com/en-us/updates/
+
+fuente oficial de mc
+http://docs.microsoft.com/es-mx/azure/
+
+Microsoft learn
+https://docs.microsoft.com/es-es/learn/paths/azure-fundamentals/
+
+Canal de youtube
+https://www.youtube.com/channel/UC5_-RLpII-4R_xyF6R4CZ2Q?view_as=subscriber
+
+CAPITULO 1
+----------------------
+Active Directory
+
+azure adconnect
+https://www.microsoft.com/en-us/download/details.aspx?id=47594
+
+Microsoft.AspNetCore.AzureAppServices.HostingStartup
+
+en powershell (Windows Terminal)
+
+$PSVersionTable.PSVersion
+find-module MSOnline
+
+--Desde office365
+
+install-module AzureAD
+install-module MSonline
+$cred = get-credential
+
+edison954az104@outlook.com
+e$
+
+--Desde AD
+$cred
+Connect-msolService -Credential $cred
+Get-MsolDomain |Format-Table
+Get-MsolUser |Format-Table
+
+Connect-AzureAD -Credential $cred
+Get-AzureADUser |Format-Table
+
+get-help New-MsolUser
+
+
+LAB01
+az104-01a-aaduser1@edison954az104outlook.onmicrosoft.com 
+op#890am
+
+
+https://www.linkedin.com/learning/exchange-server-2019-esencial/el-universo-de-microsoft-exchange-server-enterprise-2019
+fcampo@hotmail.com
+(+57)3176821164 
+
+
