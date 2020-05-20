@@ -75,4 +75,79 @@ https://www.linkedin.com/learning/exchange-server-2019-esencial/el-universo-de-m
 fcampo@hotmail.com
 (+57)3176821164 
 
+------------------------------
+Para estudiar:
+examcollection
+certcollection
+https://www.itexams.com/exam/AZ-103
+
+Limites
+
+980 grupos de recursos
+800 elementos dentro de un grupo de recurso
+50 etiquetas por elemento
+
+https://docs.microsoft.com/es-mx/azure/azure-resource-manager/management/azure-subscription-service-limits
+
+Azure regions
+https://azure.microsoft.com/en-us/global-infrastructure/regions/
+
+Submarinecablemap para ver conexiones de red
+https://www.submarinecablemap.com/
+
+https://azurespeedtest.azurewebsites.net/
+
+no todos los datacenter ofrecen los mismos servicios.
+
+con una cuenta puedo tener varias subscripciones.. para manejar costos diferentes
+
+para empresas partners, a ellos se les paga lo consumido en la subs de azure
+https://www.microsoft.com/Licensing/servicecenter/default.aspx
+
+https://imaginecup.microsoft.com/en-us/Events?id=0
+
+Azure pricing calculator
+https://azure.microsoft.com/en-us/pricing/calculator/?&ef_id=EAIaIQobChMIl_3JwYfB6QIVjI7ICh3cSgJdEAAYASAAEgIH-PD_BwE:G:s&OCID=AID2000068_SEM_EAIaIQobChMIl_3JwYfB6QIVjI7ICh3cSgJdEAAYASAAEgIH-PD_BwE:G:s&dclid=CJTXk8OHwekCFQQihwodtSQBTw
+
+Etiquetas para luego filtrar por tags
+
+Politicas. para restringir y/o controlar como se estan controlando los elementos en la subscripcion.
+
+por ejemplo 
+	para nemotecnia en grupos de recursos.
+	para que las maquinas virtuales tengan backups
+
+Management group  --> la subs puede pertenecer a este
+por encima de la subscripcion
+
+Roles
+	Owner
+	Contributor  (permisos de accion sobre el elemento, ej: prender apagar)
+	Reader
+
+Permisos son heredables en cascada.
+
+
+Labs
+https://github.com/MicrosoftLearning/AZ-104-MicrosoftAzureAdministrator
+
+
+ff9d52a3-6f29-41e6-a71f-7d6f1c538b7a
+
+az104-02-aaduser1
+Pa55w.rd124
+
+r%123erty
+
+
+
+Remove-AzRoleAssignment -ObjectId '34d0afe4-2622-4979-83cc-fdc432a25fd8' -RoleDefinitionName 'Support Request Contributor (Custom)' -Scope $scope
+
+https://docs.microsoft.com/es-es/azure/governance/management-groups/overview#root-management-group-for-each-directory
+
+
+
+
+
+
 
