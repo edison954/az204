@@ -145,9 +145,52 @@ Remove-AzRoleAssignment -ObjectId '34d0afe4-2622-4979-83cc-fdc432a25fd8' -RoleDe
 
 https://docs.microsoft.com/es-es/azure/governance/management-groups/overview#root-management-group-for-each-directory
 
+Seccion 3.
+
+get-help Set-AZVirtualNetwork
+
+Install-module Az
+
+Add-AZAccount
+Connect-AzAccount
+Remove Az-Account
+
+Traer el listado de todos los comandos instalados en la maquina
+Get-Command
+
+Get-Command -Verb Get -Noun AzVM* -Module Az.Compute
+
+Get-Date
+Get-AzVM -Status
+dir
+
+# Create VM config object - $vmConfig using instructions on linked page above
+
+# Generate SSH keys in Cloud Shell
+ssh-keygen -t rsa -b 2048 -f $HOME\.ssh\id_rsa 
+
+# Ensure VM config is updated with SSH keys
+$sshPublicKey = Get-Content "$HOME\.ssh\id_rsa.pub"
+Add-AzVMSshPublicKey -VM $vmConfig -KeyData $sshPublicKey -Path "/home/azureuser/.ssh/authorized_keys"
+
+# Create a virtual machine
+New-AzVM -ResourceGroupName <yourResourceGroup> -Location <vmLocation> -VM $vmConfig
+
+# SSH to the VM
+ssh azureuser@MyVM.Domain.Com
 
 
+Get-Help
 
 
+para ver caracteristicas nuevas
+preview.portal.azure.com
 
+https://github.com/Azure/AzureStack-QuickStart-Templates
+
+
+https://github.com/PixelRobots/Azure-Study-Guides/blob/master/AZ-104/AZ-104.md
+
+https://github.com/Azure/azure-policy/blob/master/samples/TextPatterns/enforce-like-pattern/README.md
+https://github.com/Azure/Community-Policy/tree/master/Policies/General
 
