@@ -194,3 +194,34 @@ https://github.com/PixelRobots/Azure-Study-Guides/blob/master/AZ-104/AZ-104.md
 https://github.com/Azure/azure-policy/blob/master/samples/TextPatterns/enforce-like-pattern/README.md
 https://github.com/Azure/Community-Policy/tree/master/Policies/General
 
+
+
+storage Account
+nombre de 3 a 24 caracteres
+solo numeros y letras en minuscula
+Microsoft realiza 3 copias de informacion dentro de las copias de azure
+
+contonedore ,tablas, blobs, c
+ño,ote de recirsps
+https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/resource-name-rules
+
+
+---- Maquinas virtuales
+
+hasta 1000 maquinas se pueden tener en un scale Set
+
+cuando se crea una maquina virtual se crea
+- virtual network
+- storage Account
+- virtuales machine
+- public ip address
+- network security group
+- network interface
+- disk
+
+serverless computing
+
+hasta 5 deployments slots
+
+
+

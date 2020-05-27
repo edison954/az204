@@ -1,5 +1,6 @@
-﻿$RG2 = New-AzureRmResourceGroup -Name "Az100RG2" -Location "Southcentral US"
+﻿Connect-AzAccount
 $Credentials = Get-Credential
+$RG2 = New-AzureRmResourceGroup -Name "Az100RG2" -Location "Southcentral US"
 
 #CREAR MAQUINA VIRTUAL 1
 $ASet = New-AzureRmAvailabilitySet -ResourceGroupName $RG2.ResourceGroupName -Name "aset1" -Location $RG2.Location -Sku "Aligned" -PlatformFaultDomainCount 1 -platformUpdateDomainCount 1
