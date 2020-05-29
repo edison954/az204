@@ -224,4 +224,6 @@ serverless computing
 hasta 5 deployments slots
 
 
-
+examenes de certificacion
+https://fcampo7463.wordpress.com/2020/04/29/examenes-de-certificacion-2020/
+https://docs.microsoft.com/en-us/learn/paths/azure-fundamentals/
